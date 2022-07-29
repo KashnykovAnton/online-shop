@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 95vw;
+  height: 100vh;
+  padding: 20px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(253, 187, 45, 0.4), rgba(253, 187, 45, 0.4)),
+    url(https://cdn.pixabay.com/photo/2018/04/14/10/10/hand-3318658_960_720.png), center;
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 18px;
+  text-indent: 50px;
+  white-space: wrap;
+}

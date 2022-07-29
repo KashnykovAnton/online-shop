@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  font-size: 28px;
+}
+
+.desc {
+  margin: 20px 0px;
+}
+
+.socialContainer {
+  display: flex;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  /* background-color: ${(props) => props.color}; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #3b5999;
+}
+
+.instagram {
+  background-color: #e4405f;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.center {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  width: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+}
+
+.contactItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.adress {
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

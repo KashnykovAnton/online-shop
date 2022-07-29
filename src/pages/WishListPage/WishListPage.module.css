@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
